@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nekronom/public_html/letsgametogether/wordle
+    - /bin/cp -a * $DEPLOYPATH
